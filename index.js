@@ -117,3 +117,4 @@ cron.schedule('5 12 * * *', runTask, { timezone: TZ });
 
 /* 若想立即本地測試，取消下一行註解 */
 // runTask();
+console.log('🟢 常駐任務已啟動，等待每天 12:05 自動執行...');
